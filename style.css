@@ -2,8 +2,65 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-size: 16px;
+}
+
+
+/* H E A D E R */
+
+header {
+    margin: 1em 4em;    
+}
+
+.header-title {
+    font-family: 'Inconsolata', monospace;
+    font-size: 1.4rem;
+    color: #333;
+}
+
+
+/* M A I N */
+
+main {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Space Mono', monospace;
+    margin: 0 auto;
+    max-width: 1300px;
+    position: relative;
+    top: 4rem;
+}
+
+.right-side {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+.right-side_title {
+    font-size: 4rem;
+    max-width: 600px;
+    color: #333;
+}
+
+.right-side_subtitle {
+    font-size: 1.5rem;
+    line-height: 35.54px;
+    max-width: 390px;
+    color: #4f4f4f;
 }
 
 .scarecrow-img {
-    width: 500px;
+    width: 33.7em;
+    height: 28em;
+}
+
+.back-btn {
+    background-color: #333;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    padding: 1em 2em;
+
 }
