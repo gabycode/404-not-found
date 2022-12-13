@@ -14,7 +14,7 @@ header {
 
 .header-title {
     font-family: 'Inconsolata', monospace;
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     color: #333;
 }
 
@@ -62,7 +62,6 @@ main {
     text-decoration: none;
     text-transform: uppercase;
     padding: 1em 2em;
-
 }
 
 /* F O O T E R */
@@ -88,11 +87,39 @@ footer a:hover {
 /* MEDIA QUERIES */
 
 @media( max-width: 1600px) {
-    .header-title{
-        color: red;
-
-    }
     main {
         grid-template-rows: auto 7em;
+    }
+}
+
+@media (max-width: 385px) {
+    .header-title{
+        /* color: red; */
+    
+    }
+    .scarecrow-img {
+        width: 18em;
+        height: 100%;
+        margin: 0 auto;
+    }
+    main {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-content: center;
+        padding: 0 2em;
+        margin: 2em auto;
+    }
+    .right-side_title {
+        font-size: 2.5rem;
+    }
+    .right-side_subtitle {
+        font-size: 1.125rem;
+    }
+    .back-btn, footer {
+        font-size: 0.875rem;
+    }
+    .right-side_subtitle, .back-btn {
+        margin: 1em 0; 
     }
 }
