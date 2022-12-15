@@ -38,14 +38,12 @@
 
 ![Alt text](screenshot.jpg "Screenshot")
 
-- [Demo] (https://gabycode.github.io/404-not-found/)
-
 ### Built With
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
 
-- [HTML]
-- [CSS]
+- HTML
+- CSS
 
 ## Features
 
@@ -63,5 +61,5 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- Website [your-website.com](https://gabycode.github.io/Personal-Portfolio/)
-- GitHub [@your-username](https://github.com/gabycode)
+- Website [here](https://gabycode.github.io/Personal-Portfolio/)
+- GitHub [@gabycode](https://github.com/gabycode)
